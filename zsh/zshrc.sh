@@ -5,15 +5,17 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:$PATH"
 
 # added by Miniconda3 installer
-export PATH="/Users/Alex/miniconda3/bin:$PATH"
+export PATH=$HOME/miniconda3/bin:$PATH
 
 # Setting PATH for flutter
 export PATH=$HOME/Projects/Flutter/flutter/bin:$PATH
 
 export GOPATH=$HOME/Projects/Go
 
-# Path to your oh-my-zsh installation.
-export ZSH="/Users/Alex/.oh-my-zsh"
+# Path to oh-my-zsh installation.
+export ZSH=$HOME/.dotfiles/zsh/oh-my-zsh
+# Path to custom config files and plugins
+export ZSH_CUSTOM=$HOME/.dotfiles/zsh/
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -111,6 +113,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias cdc='cd /Users/Alex/Projects/classes/'
-alias cdl='cd /Users/Alex/Projects/lender/'
+alias cdc='cd $HOME/Projects/classes/'
+alias cdl='cd $HOME/Projects/lender/'
 alias sshut='ssh alexchen@bridgewater.cs.utexas.edu'
