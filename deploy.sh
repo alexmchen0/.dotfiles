@@ -77,8 +77,8 @@ check_for_software tmux
 echo
 
 check_default_shell
-
 echo
+
 echo -n "Would you like to backup your current dotfiles? (y/n) "
 old_stty_cfg=$(stty -g)
 stty raw -echo
@@ -92,12 +92,14 @@ else
 	echo -e "\nNot backing up old dotfiles."
 fi
 
-printf "source '$HOME/dotfiles/zsh/zshrc.sh'" > ~/.zshrc
+printf "source '$HOME/.dotfiles/zsh/zshrc_manager.sh'" > ~/.zshrc
+
 mkdir ~/.vim
-printf "so $HOME/dotfiles/vim/vimrc.vim" > ~/.vim/vimrc
 mkdir ~/.vim/colors
-cp ./vim/colors/* ~/.vim/colors
-printf "source-file $HOME/dotfiles/tmux/tmux.conf" > ~/.tmux.conf
+cp ~/.dotfiles/vim/colors/* ~/.vim/colors
+printf "so $HOME/.dotfiles/vim/vimrc.vim" > ~/.vim/vimrc
+
+printf "source-file $HOME/.dotfiles/tmux/tmux.conf" > ~/.tmux.conf
 
 echo
 echo "Please log out and log back in for default shell to be initialized."
