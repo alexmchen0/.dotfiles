@@ -4,6 +4,7 @@ set backspace=start,eol
 
 " ----Looks----
 syntax on
+set background=dark
 colorscheme gruvbox
 
 " ----Spaces & Tabs----
