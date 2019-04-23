@@ -115,4 +115,4 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias cdc='cd $HOME/Projects/classes/'
 alias cdl='cd $HOME/Projects/lender/'
-alias sshut='ssh alexchen@bridgewater.cs.utexas.edu'
+alias sshut='ssh alexchen@pyxis.cs.utexas.edu'
