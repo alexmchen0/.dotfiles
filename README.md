@@ -7,7 +7,7 @@ Heavily inspired by (i.e. largely copied from): https://github.com/Parth/dotfile
 
 Once the repo is cloned in the home directory, execute the deploy script:
 ```
-./deploy
+./deploy.sh
 ```
 
 This script guides you through the following:
