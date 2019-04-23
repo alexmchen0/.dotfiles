@@ -1,11 +1,11 @@
 # dotfiles
-Simple, custom configuration files for vim, tmux, and zsh. For easy setup of dev environment on new machines.
+Simple, custom configuration files for vim, tmux, and zsh. For easy setup of development environment on new machines.
 
-Heavily inspired by (i.e. largely copied from) https://github.com/Parth/dotfiles
+Heavily inspired by (i.e. largely copied from): https://github.com/Parth/dotfiles
 
 ## Installation
 
-Once the repo is cloned, execute the deploy script:
+Once the repo is cloned in the home directory, execute the deploy script:
 ```
 ./deploy
 ```
@@ -17,6 +17,3 @@ This script guides you through the following:
 3. Checks to see if your default shell is zsh.
 4. Sets zsh to your default shell.
 5. Backs up your old configuration files.
-
-Pretty convenient for configuring new servers.
-
