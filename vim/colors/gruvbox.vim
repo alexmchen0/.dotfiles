@@ -16,7 +16,7 @@ if version > 580
   endif
 endif
 
-let g:colors_name='gruvbox2'
+let g:colors_name='gruvbox'
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running') && &t_Co != 256
   finish
@@ -77,7 +77,7 @@ if !exists('g:gruvbox_contrast_light')
   let g:gruvbox_contrast_light='medium'
 endif
 
-let s:is_dark=(&background == 'dark')
+let s:is_dark=(1)
 
 " }}}
 " Palette: {{{
