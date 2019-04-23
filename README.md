@@ -1,7 +1,6 @@
 # dotfiles
 Simple configuration files for vim, tmux, and zsh. For easy setup of development environment on new machines.
-
-'deploy.sh' and idea heavily inspired by https://github.com/Parth/dotfiles
+`deploy.sh` copied from https://github.com/Parth/dotfiles
 
 ## Installation
 
