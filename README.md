@@ -1,5 +1,5 @@
 # dotfiles
-Simple, custom configuration files for vim, tmux, and zsh. For easy setup of development environment on new machines.
+Simple configuration files for vim, tmux, and zsh. For easy setup of development environment on new machines.
 
 Heavily inspired by (i.e. largely copied from): https://github.com/Parth/dotfiles
 
