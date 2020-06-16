@@ -1,15 +1,9 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
-
-# Setting PATH for Python 3.6
-export PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:$PATH"
-
-# added by Miniconda3 installer
+export PATH=/Library/Frameworks/Python.framework/Versions/3.6/bin:$PATH
 export PATH=$HOME/miniconda3/bin:$PATH
 
-# Setting PATH for flutter
-export PATH=$HOME/Projects/Flutter/flutter/bin:$PATH
-
+# Setting go path
 export GOPATH=$HOME/Projects/Go
 
 # Path to oh-my-zsh installation.
@@ -113,6 +107,12 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias cdc='cd $HOME/Projects/classes/'
-alias cdl='cd $HOME/Projects/lender/'
-alias sshut='ssh alexchen@pyxis.cs.utexas.edu'
+
+export EDITOR='vim'
+
+# vim-mode keybindings
+bindkey -v
+
+# vim-like keybindings for search
+bindkey "^N" history-beginning-search-backward
+bindkey "^P" history-beginning-search-forward 
