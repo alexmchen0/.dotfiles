@@ -1,5 +1,5 @@
 # .dotfiles
-Simple configuration files for vim, tmux, and zsh. For easy setup of development environment on new machines.
+Simple and easy setup of development environment (zsh, vim, and tmux) on new machines.
 `deploy.sh` copied from https://github.com/Parth/dotfiles
 
 ## Installation
@@ -16,3 +16,4 @@ This script guides you through the following:
 3. Checks to see if your default shell is zsh.
 4. Sets zsh to your default shell.
 5. Backs up your old configuration files.
+6. Installs included plugins and updates configuration files.
